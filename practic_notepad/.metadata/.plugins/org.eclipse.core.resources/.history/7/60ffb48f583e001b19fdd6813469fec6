@@ -1,0 +1,20 @@
+package method_example;
+
+public class method1 {
+
+	public static void main(String[] args) {
+		iAmStatic();
+		iAmStatic("Melody");
+		
+		example2.iAmStaticExample2();
+		example2.iAmStaticExample2("Boris");
+	}
+	public static void iAmStatic() {
+		System.out.println("hello from example 1");
+	}
+	public static void iAmStatic(String name) {
+		System.out.println("hello static by name from example 1 and name = "+name);
+	}
+//log in 
+	
+}

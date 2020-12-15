@@ -1,0 +1,16 @@
+package method_example;
+
+public class method1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void iAmStatic() {
+		System.out.println("hello");
+	}
+	public static void iAmStatic(String name) {
+		System.out.println("hello static by name and name = "+name);
+	}
+
+}

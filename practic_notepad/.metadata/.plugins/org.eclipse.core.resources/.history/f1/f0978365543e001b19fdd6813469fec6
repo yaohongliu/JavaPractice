@@ -1,0 +1,16 @@
+package example1;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		/*
+		 * casting/type conversion of one data type to another
+		 * 
+		 */
+		int x = 12;
+		float f = x;
+		System.out.println("x = "+x);
+		System.out.println("f = "+f);
+	}
+
+}
