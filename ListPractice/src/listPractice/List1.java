@@ -2,6 +2,7 @@ package listPractice;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -84,6 +85,16 @@ public class List1 {
 		
 		li3.removeAll(li2);
 		System.out.println("li3 after removeAll "+li3);
+		
+		System.out.println("iterating using Ietrator");
+		Iterator<Integer> it = li3.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		System.out.println(li3);
+		
+		
+		
 		
 		
 	}
