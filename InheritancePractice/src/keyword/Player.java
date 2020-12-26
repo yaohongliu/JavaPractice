@@ -29,6 +29,12 @@ public class Player extends Person {
 	public void setTeam(Team team) {
 		this.team = team;
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Person [playerRating = " +rating+", playerTeam = " +team+" ]";
+	}
 	
 	
 	

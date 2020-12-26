@@ -6,6 +6,9 @@ public class Employee extends Person{
 	
 	private Project project;
 	
+	private Address permanentAddress;
+	private Address presentAddress;
+	
 	public Employee() {
 		
 	}

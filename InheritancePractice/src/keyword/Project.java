@@ -6,7 +6,7 @@ public class Project {
 	private String clientName;
 	
 	public Project() {
-		
+		//constructor
 	}
 	
 	public Project(int projectId, String projectName, String clientName) {

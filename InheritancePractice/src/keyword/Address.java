@@ -49,6 +49,12 @@ public class Address {
 	public void setZip(int zip) {
 		this.zip = zip;
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Address [addressId=" +addId+", streetName= " +streetName+ " cityName, = "+ cityName + " zip = "+ zip + " ]";
+	}
 	
 	
 	
